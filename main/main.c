@@ -15,6 +15,6 @@ void app_main(void) {
     ESP_LOGI(TAG, "Begin main loop");
     for (;;) {
         controller_manage();
-        vTaskDelay(pdMS_TO_TICKS(10));
+        vTaskDelay(pdMS_TO_TICKS(1));
     }
 }

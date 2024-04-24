@@ -14,7 +14,5 @@ void controller_init() {
 }
 
 void controller_manage() {
-    if (gatt_server_is_notify_enabled()) {
-        proximity_manage();
-    }
+    proximity_manage();
 }

@@ -28,7 +28,7 @@
 #define GATTS_DESCR_UUID_TEST_A     0x3333
 #define GATTS_NUM_HANDLE_TEST_A     4
 
-#define TEST_DEVICE_NAME            "ESP_GATTS_DEMO"
+#define TEST_DEVICE_NAME            "TO_THE_MOON"
 #define GATTS_DEMO_CHAR_VAL_LEN_MAX 0x40
 #define PREPARE_BUF_MAX_SIZE        1024
 
